@@ -1,0 +1,21 @@
+{
+  "name": "formtype",
+  "author": "Cameron Campbell",
+  "version": "0.0.2",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MightyPart/formtype"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.31.28"
+  }
+}

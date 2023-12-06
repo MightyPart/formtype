@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "esNext",
+    "lib": ["esNext"],
+    "strict": true,
+    "strictPropertyInitialization": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "maxNodeModuleJsDepth": 100,
+    "noErrorTruncation": true,
+    "outDir": "dist",
+    "rootDir": "./src",
+    "declaration": true,
+    "types": ["bun-types"],
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["./node_modules"]
+}
